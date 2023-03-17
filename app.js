@@ -12,8 +12,8 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
   const blogs = [
-    {title: 'Yoshi finds eggs', snippet: 'Lorem ipsum dolor sit amet consectetur'},
-    {title: 'Mario finds stars', snippet: 'Lorem ipsum dolor sit amet consectetur'},
+    {title: 'Liam loves Liverpool', snippet: 'Lorem ipsum dolor sit amet consectetur'},
+    {title: 'Shanaya is creative in artwork', snippet: 'Lorem ipsum dolor sit amet consectetur'},
     {title: 'How to defeat bowser', snippet: 'Lorem ipsum dolor sit amet consectetur'},
   ];
   res.render('index', { title: 'Home', blogs });

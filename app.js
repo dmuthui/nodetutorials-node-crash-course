@@ -6,7 +6,7 @@ const app = express();
 // listen for requests
 app.listen(3000);
 
-// register view engine
+// register view engine with ejs
 app.set('view engine', 'ejs');
 // app.set('views', 'myviews');
 
